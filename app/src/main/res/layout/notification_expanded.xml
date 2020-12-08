@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecciona una opcion para responder"
+        android:padding="8dp"
+        style="@style/TextAppearance.Compat.Notification"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="#FFF"
+        />
+
+    <Button
+        android:id="@+id/btn_option_1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Hola, como estas?"
+        />
+
+</LinearLayout>
